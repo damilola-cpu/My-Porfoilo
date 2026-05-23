@@ -7,12 +7,18 @@ padding : 0px;
   scroll-behavior: smooth;
  }
  body{
-  background-color:#13293D;
+  background-color: #13293D;
+
+
+        
+        
+       
+
   
  }
  body,html{
   width: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden; 
  }
 
 
@@ -101,12 +107,22 @@ padding : 0px;
 
 
 .Hero-image{
-    background-color:inherit;
+    
+    background-image: url(../img/top-view-dark-stylish-workplace-with-smartphone-office-supplies_67155-2963.png);
 
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+        
+        /* Center the image */
+        background-position: center;
+        
+        /* Prevent repeating */
+        background-repeat: no-repeat;
+        
+        /* Optional: Fix image while scrolling */
+        background-attachment: fixed;
+        
+        /* Set a fallback background color */
+        
+        background-size: cover;
   height: 70%;
   color: white;
   text-align: center;
