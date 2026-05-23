@@ -106,7 +106,7 @@ padding : 0px;
 
 
 
-.Hero-image{
+.Hero-image,.My-Resume,.about-section{
     
     background-image: url(../img/top-view-dark-stylish-workplace-with-smartphone-office-supplies_67155-2963.png);
 
@@ -123,16 +123,18 @@ padding : 0px;
         /* Set a fallback background color */
         
         background-size: cover;
-  height: 70%;
-  color: white;
-  text-align: center;
-    
+  
    
   
   
 
-}
 
+}
+.Hero-image{
+  height: 70%;
+  color: white;
+  text-align: center;
+}
 
 .hero-text{
 
@@ -159,6 +161,7 @@ p{
 
 .My-Resume{
   text-align: center;
+
   align-items: center;
   display: flex;
   justify-content: center;
@@ -168,7 +171,7 @@ p{
   color: white;
  
 
-  margin-top: 100px;
+ 
 
 }
 .h-one{
@@ -191,8 +194,7 @@ p{
 }
 
 .about-section {
-  padding: 90px;
-  margin: 50px;
+  padding: 100px;
   background-color: inherit;
   color: white;
   font-size: 1.1rem;
