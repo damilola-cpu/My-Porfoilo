@@ -31,7 +31,7 @@ padding : 0px;
   font-size: 16px;
   color: white;
   text-align: center;
-  padding: 20px 100px;
+  padding: 20px 130px;
   text-decoration: none;
 }
 
@@ -47,11 +47,11 @@ padding : 0px;
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 20px 20px;
   background-color:inherit ;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
-  padding: 20px 100px;
+  padding: 20px 140px;
 }
 
 /* Add a red background color to navbar links on hover */
@@ -77,7 +77,7 @@ padding : 0px;
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 20px 20px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -109,7 +109,6 @@ padding : 0px;
   position: relative;
   height: 70%;
   color: white;
-  border: 2px solid;
   text-align: center;
     
    
@@ -130,7 +129,7 @@ padding : 0px;
   width: 100%; /* Any width less than the parent */
   margin: 0 auto;
 
-  border: 2px solid;
+  
   padding: 100px;
  
 
